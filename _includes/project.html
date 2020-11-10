@@ -1,0 +1,9 @@
+<div class="project">
+    <h3>{{ proj.title }}</h3>
+    <div class="teaser" style="background-image: url({{ proj.teaser}})">
+    </div>
+    <p>
+        {{ proj.desc | markdownify | remove: '<p>' | remove: '</p>'}}
+    </p>
+    {% include extra_links.html proj=proj %}
+</div>

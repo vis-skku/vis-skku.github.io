@@ -1,0 +1,3 @@
+{%- assign data = site.data.authors[author] -%} {%- if data.url -%}
+<a href="{{ data.url }}" target="_blank">{{ author }}</a>
+{%- else %}{{ author }}{% endif -%}

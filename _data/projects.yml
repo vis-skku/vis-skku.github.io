@@ -1,0 +1,225 @@
+- id: pumap
+  title: Progressive Uniform Manifold Approximation and Projection
+  pdf: /assets/PUMAP.pdf
+  code: https://github.com/hyungkwonko/progressive-umap
+  hidden: true
+
+- id: dissertation
+  title: Designing Progressive Visualization Systems for Exploring Large-scale Data
+  pdf: /assets/Jaemin_Jo_Dissertation.pdf
+  hidden: true
+
+- id: proreveal
+  title: ProReveal
+  pdf: /assets/ProReveal.pdf
+  code: https://github.com/proreveal/ProReveal
+  teaser: /images/ProReveal.png
+  desc: A new progressive visual analytics concept by leaving safeguards on uncertain intermediate knowledge
+  video: https://www.youtube.com/watch?v=RuIGrVyhciM
+  selected: true
+
+- id: autotator
+  title: Autotator
+  pdf: /assets/Autotator.pdf
+  code: https://github.com/SoundGlance/SoundGlance
+  teaser: /images/Autotator.png
+  desc: A semi-automatic tool for annotating a large set of images. Powered by collaboration between human and deep learning models.
+  video: https://youtu.be/SE9rNYoa2ls
+
+- id: disentangling
+  title: Disentangled Scatterplots
+  pdf: /assets/Disentangled_Representation_of_Data_Distributions_in_Scatterplots.pdf
+  code: https://github.com/e-/Disentangling-Scatterplots
+  teaser: /images/disentangling.png
+  desc: A β-VAE model trained to disentangle scatterplot images.
+  selected: true
+
+- id: mdm
+  title: Multiclass Maps
+  pdf: /assets/Multiclass_Density_Maps.pdf
+  demo: https://jaeminjo.github.io/Multiclass-Density-Maps/
+  code: https://github.com/e-/Multiclass-Density-Maps
+  recording: https://vimeo.com/299850886
+  video_short: https://vimeo.com/289785026
+  teaser: /images/Multiclass_Density_Maps.png
+  npm: https://www.npmjs.com/package/multiclass-density-maps
+  desc: A declarative model for describing and rendering various multiclass density maps.
+  selected: true
+
+- id: touchpivot
+  title: TouchPivot
+  lib: https://dl.acm.org/citation.cfm?id=3025752
+  pdf: /assets/TouchPivot.pdf
+  video_short: https://www.youtube.com/watch?v=0hdiF9fCgFE
+  video: https://www.youtube.com/watch?v=Q6quofDiO7I
+  teaser: /images/TouchPivot.png
+  recording: https://www.youtube.com/watch?v=wpksrVF5MNw
+  desc: TouchPivot is a novel interface that assists visual data exploration on tablet devices for novices.
+
+- id: panene
+  title: PANENE
+  pdf: https://ieeexplore.ieee.org/document/8462793
+  code: https://github.com/e-/PANENE
+  teaser: images/rtsne.png
+  desc: PANENE is a progressive algorithm for approximate nearest neighbor indexing and querying.
+  selected: true
+
+- id: swifttuna
+  title: SwiftTuna
+  pdf: /assets/SwiftTuna.pdf
+  video: https://www.youtube.com/watch?v=NEakQy_ZhhI
+  teaser: /images/SwiftTuna.png
+  desc: SwiftTuna streamlines the visual information seeking process on large-scale multidimensional data.
+
+- id: cloakingnote
+  title: CloakingNote
+  pdf: /assets/CloakingNote.pdf
+  demo: https://chrome.google.com/webstore/detail/cloakingvideo-watch-youtu/eledmaedpclngopnlgnacehkpkpfpbcj
+  video_short: https://www.youtube.com/watch?v=DqDvDoIwKEU
+  teaser: /images/CloakingNote.png
+  desc: Stressed out from shoulder surfing? Use CloakingNote! Available on Chrome web store.
+
+- id: eyebookmark
+  title: EyeBookmark
+  pdf: /assets/EyeBookmark.pdf
+  video_short: https://www.youtube.com/watch?v=YQ4YQEbA2dw
+  teaser: /images/EyeBookmark.png
+  desc: Bookmark your page through eye tracking.
+
+- id: wordleplus
+  title: WordlePlus
+  pdf: /assets/WordlePlus.pdf
+  video: https://vimeo.com/146855580
+  teaser: /images/WordlePlus.png
+  desc: Desinging pen and touch interactions for authoring a Wordle.
+
+- id: livegantt
+  title: LiveGantt
+  pdf: /assets/LiveGantt.pdf
+  video: https://www.youtube.com/watch?v=f7KepgS-938
+  video_short: https://www.youtube.com/watch?v=fZFv2dxgJ90
+  demo: https://e-.github.io/LiveGantt-full-demo/
+  code: https://github.com/e-/LiveGantt-full-demo
+  teaser: /images/LiveGantt.png
+  desc: Simplifying a complex Gantt chart through reordering and aggregation.
+
+- id: soundglance
+  title: SoundGlance
+  pdf: /assets/SoundGlance.pdf
+  code: https://github.com/SoundGlance/SoundGlance
+  teaser: /images/SoundGlance.png
+  desc: Briefing the glanceable cues of Web pages for screen reader users
+
+- id: touchwordle
+  title: Wordle on Tabletop
+  teaser: /images/TouchWordle.png
+  video: https://www.youtube.com/watch?v=JS07EKOiex0
+  desc: Creating and editing Wordles on tabletops. Exhibited in a local art gallery.
+
+- id: hanguljs
+  title: Hangul.js
+  teaser: /images/hanguljs.png
+  desc: Assemble/disassemble Hangul (Korean alpahbets) with ease.
+  code: https://github.com/e-/Hangul.js
+  npm: https://www.npmjs.com/package/hangul-js
+  demo: https://e-.github.io/Hangul.js/examples/
+
+- id: atari2600
+  title: Atari2600
+  code: https://github.com/e-/Atari2600
+  desc: A JavaSciprt porting of an Atari2600 emulator
+  demo: http://e-.github.io/Atari2600/
+  teaser: /images/Atari2600.png
+
+- id: josajs
+  title: Josa.js
+  teaser: /images/josajs.png
+  code: https://github.com/e-/Josa.js
+  desc: A small JavaScript library for matching Korean postpositions.
+  npm: https://www.npmjs.com/package/josa-js
+
+- id: radiology
+  title: Locat Training
+  video_short: https://www.youtube.com/watch?v=XeySxym3eOM
+  link: http://www.locat.org/locat_training
+  desc: An online training course developed to train radiologists to interpret low-dose appendiceal CT.
+  teaser: /images/Locat.png
+
+- id: multimap
+  title: MultiMap
+  demo: https://e-.github.io/MultiMap/
+  code: https://github.com/e-/MultiMap
+  teaser: /images/MultiMap.png
+  desc: Visualization inside Treemap allows you to explore various aspects of hierarchical datasets.
+
+- id: scatterplotanime
+  title: ScatterplotAnime
+  desc: Measuring the performance of five scatterplot animation techniques on the Web.
+  code: https://github.com/e-/ScatterplotAnime
+  demo: https://e-.github.io/ScatterplotAnime/
+  teaser: /images/ScatterplotAnime.png
+
+- id: nmapjs
+  title: Nmap.js
+  desc: 'A JavaScript implementation of "Nmap: A Novel Neighborhood Preservation Space-filling Algorithm".'
+  code: https://github.com/e-/Nmap.js
+  teaser: /images/Nmapjs.png
+
+- id: painting
+  teaser: /images/Ink_and_wash.jpg
+  title: Ink-and-Wash Painting
+  desc: Simulating brush strokes in ink-and-wash paintings.
+
+- id: treecolorjs
+  title: TreeColors.js
+  npm: https://www.npmjs.com/package/treecolors
+  desc: 'A JavaScript implementation of "TreeColors: Color Schemes for Tree-Structured Data".'
+  demo: http://e-.github.io/TreeColors.js/demo
+  code: https://github.com/e-/TreeColors.js
+  teaser: /images/TreeColorsjs.png
+
+- id: hsijs
+  title: hsi.js
+  code: https://github.com/e-/hsi.js
+  desc: A micro JavaScript library for conversion between RGB and HSI color spaces.
+  teaser: /images/hsijs.png
+
+- id: sliduino
+  title: Sliduino
+  teaser: /images/Sliduino.jpg
+  desc: A mobile prototype for controlling presentation slides
+
+- id: opticsjs
+  title: optics.js
+  desc: optics.js is an open source JavaScript implemenation of the OPTICS clustering algorithm on Web browsers and node.js.
+  code: https://github.com/e-/optics.js
+  demo: http://e-.github.io/optics.js/demo/
+  teaser: /images/opticsjs.png
+
+- id: MulticoreComputing
+  title: Multicore Examples
+  teaser: /images/Multicore_Examples.png
+  desc: Code snippets of multicore computation.
+  code: https://github.com/e-/MulticoreComputing
+
+- id: columnDB
+  title: ColumnDB
+  code: https://github.com/e-/ColumnDB
+  teaser: /images/ColumnDB.png
+  desc: A super-simple columnar database.
+
+- id: panenedsia
+  pdf: /assets/Progressive_KD_Tree.pdf
+  code: https://github.com/e-/PANENE
+  hidden: true
+
+- id: longline
+  title: LongLine
+  pdf: https://www.sciencedirect.com/science/article/pii/S2468502X18300159
+  hidden: true
+
+- id: swifttunaposter
+  pdf: /assets/SwiftTuna_poster_submission.pdf
+  poster: /assets/SwiftTuna_poster.pdf
+  video: https://www.youtube.com/watch?v=NEakQy_ZhhI
+  hidden: true

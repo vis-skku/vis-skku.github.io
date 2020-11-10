@@ -1,0 +1,38 @@
+---
+layout: home
+title: Home
+order: 0
+---
+
+<h1 class="page-heading">Welcome to SKKU Visualization Laboratory!</h1>
+
+<section id="intro">
+  <p>
+    <strong
+      >We design, develop, and evaluate interactive visualization systems that
+      bridge humans and computers.
+    </strong>
+    The ever-increasing size and complexity of data are now challenging our
+    perceptual and cognitive abilities in daily analytics, leaving the data and
+    models intractable without support. We believe interactive visualization
+    systems can address these challenges by amplifying our abilities to
+    understand such data and models. We research Information Visualization
+    (InfoVis), Visual Analytics, and Human-Computer Interaction (HCI).
+  </p>
+  <p>
+    We are looking for undergraduate interns and graduate stduents. If you are
+    interested in research topics such as scalable and responsive visualization
+    systems, explanatory data visualization, and human-in-the-loop machine
+    learning, please contact Prof. Jaemin Jo (<a href="mailto:jmjo@skku.edu"
+      >jmjo@skku.edu</a
+    >)
+  </p>
+</section>
+
+<h2 class="mt-8">Selected Projects</h2>
+
+<section id="projects">
+  {% assign selected_projects = site.data.projects | where_exp: "item",
+  "item.selected" %} {% for proj in selected_projects %} {% include project.html
+  proj=proj %} {% endfor %}
+</section>

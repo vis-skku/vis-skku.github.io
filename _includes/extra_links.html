@@ -1,0 +1,56 @@
+{% if proj.pdf or proj.video or proj.link
+    or proj.demo or proj.video_short or proj.recording or proj.slides
+    or proj.poster or proj.code or proj.npm %}
+<div class="extra-links">
+    {% if proj.pdf %}
+    <a href="{{ proj.pdf }}" target="_blank">
+        <i class="far fa-sticky-note" aria-hidden="true"></i> Paper
+    </a>
+    {% endif %}
+    {% if proj.link %}
+    <a href="{{ proj.link }}" target="_blank">
+        <i class="fas fa-link" aria-hidden="true"></i> Link
+    </a>
+    {% endif %}
+    {% if proj.demo %}
+    <a href="{{ proj.demo }}" target="_blank">
+        <i class="fas fa-laptop-code" aria-hidden="true"></i> Demo (Web)
+    </a>
+    {% endif %}
+    {% if proj.video %}
+    <a href="{{ proj.video }}" target="_blank">
+        <i class="fas fa-play" aria-hidden="true"></i> Video
+    </a>
+    {% endif %}
+    {% if proj.video_short %}
+    <a href="{{ proj.video_short }}" target="_blank">
+        <i class="fas fa-forward" aria-hidden="true"></i> Video (Short)
+    </a>
+    {% endif %}
+    {% if proj.recording %}
+    <a href="{{ proj.recording }}" target="_blank">
+        <i class="fas fa-video"></i> Recording
+    </a>
+    {% endif %}
+    {% if proj.slides %}
+    <a href="{{ proj.slides }}" target="_blank">
+        <i class="far fa-window-maximize" aria-hidden="true"></i> Slides
+    </a>
+    {% endif %}
+    {% if proj.poster %}
+    <a href="{{ proj.poster }}" target="_blank">
+        <i class="far fa-window-maximize" aria-hidden="true"></i> Poster
+    </a>
+    {% endif %}
+    {% if proj.code %}
+    <a href="{{ proj.code }}" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i> Code
+    </a>
+    {% endif %}
+    {% if proj.npm %}
+    <a href="{{ proj.npm }}" target="_blank">
+        <i class="fab fa-npm" aria-hidden="true"></i> NPM
+    </a>
+    {% endif %}
+</div>
+{% endif %}
