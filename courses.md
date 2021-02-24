@@ -8,7 +8,7 @@ order: 4
 {% assign courses = site.data.courses %}
 {% for c in courses %}
 <div>
-    <h3>{{ c.title }} ({{ c.target }})</h3>
+    <h3>{{ c.title }} <small>({{ c.target }})</small></h3>
     <ul>
         {% for year in c.years %}
         <li>{{ year }}</li>

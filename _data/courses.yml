@@ -1,3 +1,15 @@
+- title: Information (Data) Visualization
+  target: Undergraduate and Graduate
+  desc: With the advances in data storing and processing technologies, the size of data humans confront is increasing at an unprecedented rate. Despite the ever-increasing data size, our perceptual and cognitive abilities stay relatively unchanged, leading to an information gap between humans and data. Information visualization provides one means of addressing such information overload, as well-designed visual representations can assist our perceptual and cognitive abilities to understand, analyze, and memorize the data. In this course, students will learn to 1) design, evaluate, and critique visualization designs, 2) comprehend the characteristics of humans' perception that underpin visualization, 3) understand novel visualization and interaction techniques, and 4) implement interactive data visualizations.
+  years:
+    - 2021 Spring
+
+- title: Open-Source Software Practice
+  target: Undergraduate
+  desc: Open-source software has become an inevitable tech trend in software development. Even big IT companies, such as Microsoft, Google, Amazon, or Facebook, are actively participating in open-source projects, making their codes public and maintained by the open-source community.There are rules, technologies, tools, and cultures that young programmers must know before entering the open-source world. However, these topics are rarely covered in university classes and are usually left to students to figure out on their own. In this class, we will learn and practice such prerequisites for software engineers.
+  years:
+    - 2021 Spring
+
 - title: Problem Solving
   target: Undergraduate
   desc: The objective of this course is to develop problem-solving skills using the C programming language. We will first cover the important concepts in the C programming language from the very basic syntax to its advanced usages. We will practice C programming skills by solving problems from real-world programming challenges. Having background knowledge about programming is recommended but not necessary. We will focus on practicing and improving your programming skills rather than learning complex algorithms.
